@@ -20,12 +20,12 @@ jar {
     version =  '0.1.0'
 }
 
-//repositories {
-//    maven {
-//        url "https://maven.aliyun.com/repository/public/"
-//    }
-//    mavenCentral()
-//}
+repositories {
+    maven {
+        url "https://maven.aliyun.com/repository/public/"
+    }
+    mavenCentral()
+}
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
